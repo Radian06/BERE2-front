@@ -27,12 +27,12 @@
     justify-content: space-between;
     align-items: end;
 
-    border-bottom: solid 0.1vh black;
+    border-bottom: solid 0.1vh #3A278B;
 }
 
 .header_nav {
     margin-bottom: 1vh;
     font-size: 2vh;
-    color: black;
+    color: #333333;
     text-decoration: none;
 }
