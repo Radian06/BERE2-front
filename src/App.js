@@ -4,6 +4,7 @@ import Header from "./component/header";
 import Intro from "./pages/intro";
 import ReviewCheck from "./pages/reviewCheck";
 import Result from "./pages/result";
+import Record from "./pages/record";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Intro />} />
         <Route path="/review-check" element={<ReviewCheck />} />
         <Route path="/result" element={<Result />} />
+        <Route path="/record" element={<Record />} />
       </Routes>
     </BrowserRouter>
   );
