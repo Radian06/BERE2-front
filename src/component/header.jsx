@@ -8,7 +8,9 @@ function Header() {
 
     return (
         <div className="header_page">
-            <img src={mainLogo} alt="main logo" className="header_logo"></img>
+            <Link to="/">
+                <img src={mainLogo} alt="main logo" className="header_logo" />
+            </Link>
             <div className="header_nav_box">
                 <Link to="/reviewCheck" className="header_nav">리뷰 탐지</Link>
                 <Link to="/record" className="header_nav">기록 조회</Link>
