@@ -1,0 +1,73 @@
+.intro_page {
+    width: 84vw;
+    height: 90vh;
+    padding: 0 8vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro_left_box {
+    width: 42vw;
+    height: 84vh;
+    padding-bottom: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.intro_right_box {
+    width: 42vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.intro_subTitle {
+    font-size: 3vh;
+    color: #333333;
+}
+
+.intro_title {
+    margin-bottom: 4vh;
+    
+    font-size: 8vh;
+    color: #3A278B;
+    font-weight: bold;
+}
+
+.intro_btn_box {
+    width: 28vw;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+    color: #333333;
+    font-size: 3vh;
+    border-radius: 2vh;
+    border: 0.5vh solid #FFD700;
+}
+
+.intro_review_btn {
+    width: 8vw;
+    height: 4vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFD700;
+    border-radius: 1vh;
+    color: #333333;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
