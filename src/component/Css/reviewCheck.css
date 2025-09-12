@@ -1,5 +1,63 @@
 .RC_page {
     width: 84vw;
-    height: 90vh;
+    height: 84vh;
     padding: 0 8vw;
+    padding-bottom: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RC_logo {
+    width: 10vw;
+    height: auto;
+}
+
+.RC_title {
+    margin-bottom: 2vh;
+    
+    font-size: 10vh;
+    font-weight: bold;
+    color: #3A278B;
+}
+
+.RC_input_box{
+    width: 48vw;
+    height: 6vh;
+    padding: 1vh 1vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0.5vh solid #FFD700;
+    border-radius: 3vh;
+}
+
+.RC_input {
+    all: unset;
+
+    width: 40vw;
+    height: 6vh;
+
+    color: #333333;
+}
+
+.RC_input_btn {
+    all: unset;
+
+    width: 8vw;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFD700;
+    border-radius: 0 2vh 2vh 0;
+    color: #333333;
+
+    cursor: pointer;
 }
