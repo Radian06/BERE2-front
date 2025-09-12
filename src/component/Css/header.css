@@ -30,8 +30,28 @@
 }
 
 .header_nav {
+    all: unset;
+
     margin-bottom: 1vh;
     font-size: 2vh;
     color: #333333;
     text-decoration: none;
+
+    cursor: pointer;
+}
+
+.header_modal_overlay {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.5);
 }
