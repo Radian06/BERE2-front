@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./component/header";
 import Intro from "./pages/intro";
+import ReviewCheck from "./pages/reviewCheck";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Intro />} />
+        <Route path="/review-check" element={<ReviewCheck />} />
       </Routes>
     </BrowserRouter>
   );
