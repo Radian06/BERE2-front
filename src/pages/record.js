@@ -1,5 +1,5 @@
 import "../component/Css/record.css";
-import { Pagination } from "antd";
+import Header from "../component/header.jsx";
 
 function Record() {
     return (

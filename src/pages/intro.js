@@ -1,4 +1,5 @@
 import "../component/Css/intro.css";
+import Header from "../component/header.jsx";
 
 import { Link } from "react-router-dom";
 

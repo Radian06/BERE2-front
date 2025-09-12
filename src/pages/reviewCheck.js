@@ -1,5 +1,6 @@
 import "../component/Css/reviewCheck.css";
 import Logo from "../image/logo.png";
+import Header from "../component/header.jsx";
 
 function ReviewCheck() {
     return (

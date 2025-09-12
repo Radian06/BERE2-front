@@ -1,5 +1,6 @@
 import "../component/Css/result.css";
 import ResultProgress from "../component/resultProgress";
+import Header from "../component/header.jsx";
 
 import { Link } from "react-router-dom";
 
