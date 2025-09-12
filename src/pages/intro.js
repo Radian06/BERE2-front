@@ -12,7 +12,7 @@ function Intro() {
                 <div className="intro_title">가짜리뷰탐지시스템</div>
                 <div className="intro_btn_box">
                     리뷰 조회하러 가기
-                    <Link to="/reviewCheck" className="intro_review_btn">GO!</Link>
+                    <Link to="/review-check" className="intro_review_btn">GO!</Link>
                 </div>
             </div>
             <div className="intro_right_box">
