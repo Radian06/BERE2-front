@@ -4,6 +4,7 @@ import Intro from "./pages/intro";
 import ReviewCheck from "./pages/reviewCheck";
 import Result from "./pages/result";
 import Record from "./pages/record";
+import Statics from "./pages/statics";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/review-check" element={<ReviewCheck />} />
         <Route path="/result" element={<Result />} />
         <Route path="/record" element={<Record />} />
+        <Route path="/statics" element={<Statics />} />
       </Routes>
     </BrowserRouter>
   );
