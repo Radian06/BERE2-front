@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
 
+    background-color: white;
     border: 0.5vh solid #3A278B;
     border-radius: 2vw;
 }
@@ -35,6 +36,7 @@
     justify-content: center;
     align-items: center;
 
+    background-color: white;
     border: 0.5vh solid #3A278B;
     border-radius: 2vw;
 }
@@ -128,7 +130,7 @@ td {
 }
 
 th {
-    background-color: #F5F5F5;
+    background-color: white;
     color: black;
     font-size: 2vh;
     border-bottom: 0.2vw solid #3A278B;
@@ -136,7 +138,7 @@ th {
 }
 
 td {
-    background-color: #F5F5F5;
+    background-color: white;
     color: #333333;
     font-size: 1.5vh;
 }
