@@ -1,9 +1,17 @@
 import { Flex, Progress } from "antd";
 
-function ResultProgress() {
+function ResultProgress({ percent = 75 }) {
+    const strokeColor = percent === 100 ? "#3A278B" : "#b4a9e7ff";
+
     return (
         <Flex gap="small" wrap>
-            <Progress type="circle" percent={75} width={400} strokeWidth={10} />
+            <Progress 
+                type="circle" 
+                percent={percent} 
+                width={400} 
+                strokeWidth={10} 
+                strokeColor={strokeColor} 
+            />
         </Flex>
     );
 }
