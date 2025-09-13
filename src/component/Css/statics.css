@@ -1,6 +1,75 @@
-.static_page {
+.statics_page {
     width: 84vw;
-    height: 84vh;
+    min-height: 84vh;
     padding: 0 8vw;
     padding-bottom: 6vh;
+}
+
+.statics_top_box {
+    width: 84vw;
+    height: 12vh;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.statics_bottom_box {
+    width: 84vw;
+    min-height: 74vh;
+}
+
+.statics_title {
+    width: 8vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 3vh;
+    color: #333333;
+    font-weight: bold;
+    border-bottom: 0.2vh solid #3A278B;
+}
+
+.statics_discription {
+    font-size: 2vh;
+    color: #333333;
+}
+
+.statics_card_box {
+    width: fit-content;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between !important;
+    align-items: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.static_card {
+  flex: 1 1 calc(50% - 2rem); /* 2열 배치 */
+  min-width: 20vw;
+  max-width: 38vw;
+  box-sizing: border-box;
+}
+
+/* 마지막 카드가 홀수 개일 경우 왼쪽 정렬 */
+.progress-.statics_card_box:has(.static_card:nth-child(odd):last-child) {
+    justify-content: flex-start;
+}
+
+.ant-card {
+    width: 100%;
+    padding: 1rem;
+
+    border-radius: 1vw;
+}
+
+.ant-progress {
+    margin-top: 1rem;
 }
