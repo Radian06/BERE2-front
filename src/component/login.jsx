@@ -29,14 +29,12 @@ function Login() {
 
       {/* 회원가입 모달 */}
       {isJoinOpen && (
-        <div
-          className="header_modal_overlay"
-        >
+        <div className="header_modal_overlay">
           <div
             className="header_modal_content"
             onClick={(e) => e.stopPropagation()}
           >
-            <Join />
+            <Join setIsJoinOpen={setIsJoinOpen} />
           </div>
         </div>
       )}

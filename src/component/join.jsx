@@ -1,6 +1,6 @@
 import "../component/Css/join.css";
 
-function Join() {
+function Join({ setIsJoinOpen }) {
     return (
         <div className="join_page">
             <div className="join_title">회원가입</div>
@@ -13,7 +13,12 @@ function Join() {
                 개인정보약관 동의
             </label>
             <div className="join_btn_box">
-                <button className="join_back_btn">가입 취소</button>
+                <button
+                  className="join_back_btn"
+                  onClick={() => setIsJoinOpen(false)} // 모달 닫기
+                >
+                  가입 취소
+                </button>
                 <button className="join_btn">가입하기</button>
             </div>
         </div>
