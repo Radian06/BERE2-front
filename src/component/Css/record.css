@@ -98,7 +98,12 @@
     cursor: pointer;
 }
 
-.record_btn {
+.record_score_btn.selected {
+    background-color: #3A278B;
+    color: white;
+}
+
+.record_undo_btn {
     width: 4vw;
     height: 4vh;
     padding: 0 1vw;
@@ -110,6 +115,23 @@
     background-color: #FFD700;
     border-radius: 2vh;
     color: #333333;
+    font-size: 2vh;
+
+    cursor: pointer;
+}
+
+.record_btn {
+    width: 4vw;
+    height: 4vh;
+    padding: 0 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3A278B;
+    border-radius: 2vh;
+    color: white;
     font-size: 2vh;
 
     cursor: pointer;
