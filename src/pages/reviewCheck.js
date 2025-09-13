@@ -10,15 +10,28 @@ function ReviewCheck() {
     const [isLoginOpen, setIsLoginOpen] = useState(false);
     const navigate = useNavigate();
 
+    /**
+     * 페이지 전환
+     */
     const handleCheck = () => {
+        const input = document.querySelector(".RC_input").value;
+
+        // URL 유효성 검사
+        try {
+            new URL(input);
+        } catch {
+            alert("올바른 URL을 입력해주세요.");
+            return;
+        }
+
         // 로딩 모달 열기
         setIsLoginOpen(true);
 
         // 2초 후에 result 페이지로 이동 (테스트용)
         setTimeout(() => {
             setIsLoginOpen(false);
-            navigate("/result"); 
-        }, 2000); 
+            navigate("/result");
+        }, 2000);
     };
 
     return (
@@ -28,13 +41,13 @@ function ReviewCheck() {
                 <img src={Logo} alt="" className="RC_logo" />
                 <div className="RC_title">BEstREview</div>
                 <div className="RC_input_box">
-                    <input 
-                        type="text" 
-                        className="RC_input" 
-                        placeholder="URL을 입력해 주세요." 
+                    <input
+                        type="text"
+                        className="RC_input"
+                        placeholder="URL을 입력해 주세요."
                     />
-                    <button 
-                        className="RC_input_btn" 
+                    <button
+                        className="RC_input_btn"
                         onClick={handleCheck}
                     >
                         조회
