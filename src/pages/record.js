@@ -16,7 +16,7 @@ function Record() {
                         </div>
                         <div className="record_filter_group">
                             <div className="record_label">검색 키워드</div>
-                            <input type="text" className="record_input" placeholder="원하는 키워드를 입력하세요."></input>
+                            <input type="text" className="record_keyword_input" placeholder="원하는 키워드를 입력하세요."></input>
                         </div>
                     </div>
                     <div className="record_filter_box">
@@ -47,22 +47,34 @@ function Record() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>5</td>
+                                <td>리뷰 내용 요약 문구</td>
+                                <td>E</td>
+                                <td>2025.09.12</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>리뷰 내용 요약 문구</td>
+                                <td>D</td>
+                                <td>2025.09.11</td>
+                            </tr>
+                            <tr>
                                 <td>3</td>
                                 <td>리뷰 내용 요약 문구</td>
                                 <td>C</td>
-                                <td>2025.09.12</td>
+                                <td>2025.09.10</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>리뷰 내용 요약 문구</td>
                                 <td>B</td>
-                                <td>2025.09.11</td>
+                                <td>2025.09.09</td>
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td>리뷰 내용 요약 문구</td>
                                 <td>A</td>
-                                <td>2025.09.10</td>
+                                <td>2025.09.08</td>
                             </tr>
                         </tbody>
                     </table>
