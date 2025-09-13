@@ -1,7 +1,7 @@
 .join_page {
     width: 36vw;
-    height: 56vh;
-    padding: 6vh 4vw;
+    height: 54vh;
+    padding: 7vh 4vw;
 
     display: flex;
     flex-direction: column;
@@ -10,4 +10,94 @@
 
     background-color: #F5F5F5;
     border-radius: 2vw;
+}
+
+.join_title {
+    margin: 2vh 0;
+
+    font-size: 4.5vh;
+    font-weight: bold;
+}
+
+.join_input {
+    all: unset;
+
+    width: 20vw;
+    height: 4vh;
+    padding: 0 2vw;
+
+    border-bottom: 0.2vh solid #3A278B;
+}
+
+.join_checkbox_label {
+    width: 24vw;
+    height: 2vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5vw;
+
+    font-size: 1.5vh;
+
+    cursor: pointer;
+}
+
+.join_checkbox {
+    width: 1.5vh;
+    height: 1.5vh;
+
+    position: relative;
+
+    border: 0.2vh solid #3A278B;
+    border-radius: 50%;
+
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.join_checkbox:checked {
+    background-color: #3A278B;
+}
+
+.join_btn_box {
+    width: 24vw;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.join_back_btn {
+    all: unset;
+
+    width: 8vw;
+    height: 4vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFD700;
+    border-radius: 1vh;
+    color: #333333;
+    font-size: 1.5vh;
+}
+
+.join_btn {
+    all: unset;
+
+    width: 8vw;
+    height: 4vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3A278B;
+    border-radius: 1vh;
+    color: #F5F5F5;
+    font-size: 1.5vh;
 }
