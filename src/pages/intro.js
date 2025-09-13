@@ -1,5 +1,6 @@
 import "../component/Css/intro.css";
 import Header from "../component/header.jsx";
+import IntroBG from "../image/introBG.png";
 
 import { Link } from "react-router-dom";
 
@@ -19,10 +20,7 @@ function Intro() {
                     </div>
                 </div>
                 <div className="intro_right_box">
-                    <div className="intro_square1"></div>
-                    <div className="intro_square2"></div>
-                    <div className="intro_square3"></div>
-                    <div className="intro_square4"></div>
+                    <img src={IntroBG} alt="" className="intro_BG"></img>
                 </div>
             </div>
         </>

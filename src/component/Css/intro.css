@@ -27,60 +27,14 @@
     margin-bottom: 6vh;
 }
 
-.intro_square1 {
+.intro_BG {
     position: absolute;
-    z-index: 10;
-    bottom: 0;
-    right: 2vw;
+    z-index: -10;
+    bottom: -6vh;
+    right: -8vw;
 
-    width: 26vw;
-    height: 20vh;
-
-    border: 0.4vh solid #3A278B;
-    background-color: #9387cb;
-    opacity: 0.2;
-}
-
-.intro_square2 {
-    position: absolute;
-    z-index: 15;
-    bottom: 10vh;
-    right: 0;
-
-    width: 10vw;
-    height: 30vh;
-
-    border: 0.4vh solid #3A278B;
-    background-color: #9387cb;
-    opacity: 0.2;
-}
-
-.intro_square3 {
-    position: absolute;
-    z-index: 20;
-    bottom: 28vh;
-    right: 8vw;
-
-    width: 8vw;
-    height: 20vh;
-
-    border: 0.4vh solid #3A278B;
-    background-color: #9387cb;
-    opacity: 0.2;
-}
-
-.intro_square4 {
-    position: absolute;
-    z-index: 20;
-    bottom: 46vh;
-    right: 0;
-
-    width: 6vw;
-    height: 8vh;
-
-    border: 0.4vh solid #3A278B;
-    background-color: #9387cb;
-    opacity: 0.2;
+    width: auto;
+    height: 90vh;
 }
 
 .intro_subTitle {
@@ -109,6 +63,7 @@
     font-size: 3vh;
     border-radius: 2vh;
     border: 0.5vh solid #FFD700;
+    background-color: white;
 }
 
 .intro_review_btn {
