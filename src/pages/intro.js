@@ -19,7 +19,10 @@ function Intro() {
                     </div>
                 </div>
                 <div className="intro_right_box">
-                    뭐 넣지 여기
+                    <div className="intro_square1"></div>
+                    <div className="intro_square2"></div>
+                    <div className="intro_square3"></div>
+                    <div className="intro_square4"></div>
                 </div>
             </div>
         </>
