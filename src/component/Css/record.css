@@ -28,7 +28,7 @@
     position: relative;
 
     width: 84vw;
-    height: 32vh;
+    height: 36vh;
 
     display: flex;
     flex-direction: column;
@@ -64,6 +64,19 @@
     font-size: 1.5vh;
 
     cursor: pointer;
+}
+
+.record_keyword_input {
+    all: unset;
+
+    width: 14vw;
+    height: 4vh;
+    padding: 0 1vw;
+
+    border: 0.3vh solid #3A278B;
+    border-radius: 2vh;
+    color: #333333;
+    font-size: 1.5vh;
 }
 
 .record_score_btn {
