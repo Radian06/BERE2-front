@@ -1,0 +1,13 @@
+.join_page {
+    width: 36vw;
+    height: 56vh;
+    padding: 6vh 4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F5F5F5;
+    border-radius: 2vw;
+}
