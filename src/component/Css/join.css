@@ -84,6 +84,8 @@
     border-radius: 1vh;
     color: #333333;
     font-size: 1.5vh;
+
+    cursor: pointer;
 }
 
 .join_btn {
@@ -100,4 +102,6 @@
     border-radius: 1vh;
     color: #F5F5F5;
     font-size: 1.5vh;
+
+    cursor: pointer;
 }
