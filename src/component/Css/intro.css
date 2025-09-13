@@ -17,6 +17,21 @@
     flex-direction: column;
     justify-content: center;
     gap: 2vh;
+
+    opacity: 0;
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .intro_right_box {
@@ -35,6 +50,21 @@
 
     width: auto;
     height: 90vh;
+
+    opacity: 0;
+    animation: fadeInRight 1.2s ease forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .intro_subTitle {
