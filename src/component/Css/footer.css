@@ -4,7 +4,7 @@
     padding: 0 8vw;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: start;
 
 }
@@ -28,7 +28,7 @@
     margin-top: 1.5vh;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: end;
     gap: 5vw;
 }
@@ -38,7 +38,7 @@
     height: 2vh;
 
     display: flex;
-    justify-content: end;
+    justify-content: flex-start;
 }
 
 .footer_nav {
@@ -51,4 +51,14 @@
 .footer_copyright {
     font-size: 1vh;
     color: #b4b4b4;
+}
+
+.footer_logo {
+    width: auto;
+    height: 5vh;
+    margin-top: 1vh;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

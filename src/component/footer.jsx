@@ -1,4 +1,5 @@
 import "../component/Css/footer.css";
+import Logo from "../image/logo.png";
 
 function Footer() {
     return (
@@ -12,6 +13,7 @@ function Footer() {
                     <div className="footer_copyright">ⓒ 2025 SOFTWARE CONVERGENCE GYEONGKUK NATIONAL UNIVERSITY</div>
                 </div>
             </div>
+            <img src={Logo} alt="" className="footer_logo"></img>
         </div>
     );
 }
