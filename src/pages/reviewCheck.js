@@ -1,6 +1,7 @@
 import "../component/Css/reviewCheck.css";
 import Logo from "../image/logo.png";
 import Header from "../component/header.jsx";
+import Footer from "../component/footer.jsx";
 import Loading from "../component/loading.jsx";
 
 import { useState } from "react";
@@ -68,6 +69,7 @@ function ReviewCheck() {
                     </div>
                 </div>
             )}
+            <Footer />
         </>
     );
 }

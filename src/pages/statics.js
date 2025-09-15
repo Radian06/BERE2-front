@@ -1,5 +1,6 @@
 import "../component/Css/statics.css";
 import Header from "../component/header.jsx";
+import Footer from "../component/footer.jsx";
 
 import { Progress, Card } from "antd";
 
@@ -41,6 +42,7 @@ function Static() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

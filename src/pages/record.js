@@ -1,5 +1,6 @@
 import "../component/Css/record.css";
 import Header from "../component/header.jsx";
+import Footer from "../component/footer.jsx";
 
 import { useState } from "react";
 
@@ -152,6 +153,7 @@ function Record() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
