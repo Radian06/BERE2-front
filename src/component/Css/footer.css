@@ -1,0 +1,11 @@
+.footer_page {
+    width: 84vw;
+    height: 10vh;
+    padding: 0 8vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    background-color: antiquewhite;
+}

@@ -1,5 +1,6 @@
 import "../component/Css/intro.css";
 import Header from "../component/header.jsx";
+import Footer from "../component/footer.jsx";
 import IntroBG from "../image/introBG.png";
 
 import { Link } from "react-router-dom";
@@ -23,6 +24,7 @@ function Intro() {
                     <img src={IntroBG} alt="" className="intro_BG"></img>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
